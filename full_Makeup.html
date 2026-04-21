@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<title>Contact Section</title>
+
+<style>
+
+body {
+  background: #F9F7F3;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+/* SECTION */
+.contact-section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+/* HEADING */
+.subtitle {
+  color: #D4AF37;
+  letter-spacing: 3px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.title span {
+  color: #D4AF37;
+}
+
+/* FORM BOX */
+.form-container {
+  max-width: 700px;
+  margin: auto;
+  background: #FFFFFF;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+}
+
+/* INPUTS */
+.input-box {
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  border: 1px solid #E0E0E0;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-box:focus {
+  border-color: #D4AF37;
+  box-shadow: 0 0 8px rgba(212,175,55,0.3);
+}
+
+/* BUTTON */
+.btn {
+  margin-top: 20px;
+  padding: 15px;
+  width: 100%;
+  background: #D4AF37;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 1px solid #D4AF37;
+  color: #D4AF37;
+  box-shadow: 0 0 10px rgba(212,175,55,0.5);
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="contact-section">
+  
+  <p class="subtitle">GET IN TOUCH</p>
+  
+  <h1 class="title">Book Your <span>Session</span></h1>
+
+  <div class="form-container">
+    
+    <input type="text" placeholder="Your Name" class="input-box">
+    
+    <input type="email" placeholder="Your Email" class="input-box">
+    
+    <textarea placeholder="Your Message" rows="5" class="input-box"></textarea>
+
+    <button class="btn">Book Your Appointment on WhatsApp</button>
+
+  </div>
+
+</section>
+
+</body>
+</html>
